@@ -1,0 +1,12 @@
+.container {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.module{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}

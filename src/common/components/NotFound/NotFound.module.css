@@ -1,0 +1,40 @@
+.monkeyLink {
+    position: relative;
+    border: 3px solid currentColor;
+    border-radius: 12px;
+    padding: 8px;
+    cursor: pointer;
+    color: inherit;
+}
+.monkeyLink img {
+    display: block;
+    width: 400px;
+}
+.goBack {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: inherit;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.monkeyLink:hover {
+    border-color: orange;
+}
+.monkeyLink:hover .goBack {
+    color: orange;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+    gap: 30px;
+}
+.title {
+    font-size: 28px;
+    text-align: center;
+}

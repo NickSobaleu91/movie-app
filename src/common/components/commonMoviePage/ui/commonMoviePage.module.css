@@ -1,0 +1,123 @@
+.container {
+    position: relative;
+    display: flex;
+    gap: 32px;
+
+    padding: 20px 30px 40px;
+    min-height: 320px;
+
+    margin: 0 auto;
+    max-width: 1320px;
+    width: 100%;
+}
+.poster {
+    flex-shrink: 0;
+}
+
+.poster img {
+    display: block;
+    border-radius: 16px;
+    width: 280px;
+    height: 420px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.25);
+}
+.info {
+    flex: 1;
+    padding-top: 0;
+}
+.title {
+    margin: 0 0 20px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.meta {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    margin-bottom: 28px;
+}
+.meta p {
+    margin: 0;
+}
+.rating {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background-color: #19c96b;
+
+    color: white;
+    font-weight: 700;
+}
+.overview {
+    margin: 0 0 28px;
+
+    font-size: 18px;
+    line-height: 1.6;
+}
+.genres h3 {
+    margin: 0 0 14px;
+}
+.genreList {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.genreList span {
+    padding: 8px 14px;
+    border-radius: 20px;
+}
+
+.backButton {
+    position: absolute;
+    top: 22px;
+    right: 30px;
+
+    padding: 8px 16px;
+
+    border: 1px solid #334155;
+    border-radius: 20px;
+
+    background: transparent;
+    color: inherit;
+
+    cursor: pointer;
+}
+.cast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px
+}
+.actorCard img, .noPoster {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.character {
+    display: flex;
+    justify-content: center;
+}
+.nameInLive, .nameInMovie {
+    display: flex;
+    justify-content: center;
+}
+.nameInMovie {
+    font-size:14px;
+    /*color: rgba(255,255, 255, 0.6)*/
+}
+.similarRow {
+    display: flex;
+    justify-content: space-between;
+}
+.noPoster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

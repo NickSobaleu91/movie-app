@@ -1,0 +1,21 @@
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.containerCategories {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px 0;
+}
+.containerMovieCard {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}

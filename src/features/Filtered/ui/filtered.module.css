@@ -1,0 +1,24 @@
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 0 0 0 ;
+}
+.containerMovies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 35px 0 ;
+}
+.containerForBoxAndMovieCard{
+    display: flex;
+    gap: 20px;
+}
+.Rating {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,69 @@
+.common {
+    border-bottom: 1px solid #01b4e4;
+    height: 100px;
+}
+.container {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    min-height: 40px;
+    box-sizing: border-box;
+}
+.logo {
+    max-width: 220px;
+    width: 100%;
+    display: block;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    list-style: none;
+}
+.menuItem {
+    padding: 0 30px;
+    border-right: 1px solid #6b7280;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    color: inherit;
+    text-decoration: none;
+}
+.menuItem:last-child {
+    border-right: none;
+}
+.menuItem:hover {
+    color: #4f46e5;
+}
+.active {
+    color: #4f46e5;
+}
+.themeButton {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.themeButton img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.logoLink {
+    display: block;
+    flex-shrink: 0;
+    width: 220px;
+}
