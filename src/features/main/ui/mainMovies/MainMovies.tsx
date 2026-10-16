@@ -9,10 +9,10 @@ import {useNavigate} from "react-router-dom";
 import {MainSection} from "@/features/main/ui/mainMovies/MainSection.tsx";
 
 export const MainMovies = () => {
-    const { data: popolarData,isLoading: popularLoading } = useGetPopularMoviesQuery()
-    const { data: TopData, isLoading: ToLoading} = useGetTopMoviesQuery()
-    const { data: UpcomingData, isLoading: UpcomingLoading} = useGetUpcomingMoviesQuery()
-    const { data: NowPlayingData, isLoading: NowPlayingLoading} = useGetNowPlayingMoviesQuery()
+    const { data: popolarData,isLoading: popularLoading } = useGetPopularMoviesQuery(1)
+    const { data: TopData, isLoading: ToLoading} = useGetTopMoviesQuery(1)
+    const { data: UpcomingData, isLoading: UpcomingLoading} = useGetUpcomingMoviesQuery(1)
+    const { data: NowPlayingData, isLoading: NowPlayingLoading} = useGetNowPlayingMoviesQuery(1)
 
 
     const [movies, setMovies] = useState<Movie | null>(null)
